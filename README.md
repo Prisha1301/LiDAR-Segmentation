@@ -97,20 +97,6 @@ Entry point: main()
 
 Outputs bounding box visualizations and videos
 
-Project Structure
-Open3D-ML/
-│
-├── pred.py                  # PointPillars inference example
-├── sem2lidar.py             # Sampling, segmentation, evaluation pipeline
-├── boundingbox.py           # DemoDataset and bounding box inference
-├── vis.py                   # 3D visualization and frame rendering
-├── rawvis.py                # 2D LiDAR projection and video outputs
-├── setup.py                 # Video creation utility
-├── setupbb.py               # Batch video generator
-├── ss.py                    # Simple frame-to-video script
-├── tester_SemanticKITTTI.py # Evaluation functions
-├── _results.py              # Reference metrics
-
 Prerequisites
 
 Environment Requirements
